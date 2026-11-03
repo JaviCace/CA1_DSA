@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ie.ca1campsite.ca1_proyect.ui.AddCampsiteController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Add a new campsite" />
+        <GridPane hgap="10.0" vgap="10.0">
+            <children>
+                <Label text="Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <TextField fx:id="nameField" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <Label text="Address" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <TextField fx:id="addressField" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label text="Stars" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                <Spinner fx:id="starsSpinner" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label text="Contact info" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                <TextField fx:id="contactField" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            </children>
+        </GridPane>
+        <Label text="Facilities" />
+        <FlowPane hgap="15.0" vgap="8.0">
+            <children>
+                <CheckBox fx:id="restaurantCheck" text="Restaurant" />
+                <CheckBox fx:id="poolCheck" text="Swimming pool" />
+                <CheckBox fx:id="shopCheck" text="Shop" />
+                <CheckBox fx:id="spaCheck" text="Spa" />
+                <CheckBox fx:id="gymCheck" text="Gym" />
+                <CheckBox fx:id="wifiCheck" text="WiFi" />
+                <CheckBox fx:id="laundryCheck" text="Laundry" />
+                <CheckBox fx:id="medicalCheck" text="Medical centre" />
+            </children>
+        </FlowPane>
+        <TextField fx:id="otherFacilityField" maxWidth="300.0" promptText="Other facility (optional)" />
+        <HBox spacing="10.0">
+            <children>
+                <Button onAction="#onBack" text="Back" />
+                <Button onAction="#onSave" text="Add campsite" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

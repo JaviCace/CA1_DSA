@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ie.ca1campsite.ca1_proyect.ui.CancelBookingController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Cancel a booking" />
+        <HBox alignment="CENTER_LEFT" spacing="10.0">
+            <children>
+                <Label text="Guest" />
+                <ComboBox fx:id="guestCombo" onAction="#onGuestSelected" prefWidth="300.0" promptText="Choose a guest" />
+            </children>
+        </HBox>
+        <Label text="Pending bookings of this guest:" />
+        <ListView fx:id="bookingList" prefHeight="250.0" />
+        <HBox spacing="10.0">
+            <children>
+                <Button onAction="#onBack" text="Back" />
+                <Button onAction="#onCancelBooking" text="Cancel selected booking" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

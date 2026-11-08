@@ -133,15 +133,8 @@ public class DrillDownController extends ScreenController {
     }
 
     private String describeBooking(Booking booking) {
-        String status;
-        if (booking.isPending(LocalDate.now())) {
-            status = "Pending";
-        } else {
-            status = "Past";
-        }
-
         return "BOOKING #" + booking.getId() + "\n"
-                + "Status: " + status + "\n"
+                + "Status: " + booking.getStatus(LocalDate.now()) + "\n"
                 + "Guest: " + booking.getGuest() + "\n"
                 + "Plot: " + booking.getPlot().getId() + "\n"
                 + "Check-in: " + booking.getStartDate() + "\n"

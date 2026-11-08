@@ -46,6 +46,17 @@ public class Booking {
         return endDate.isAfter(today);
     }
 
+    // Tells in which moment of the stay the booking is
+    public String getStatus(LocalDate today) {
+        if (!endDate.isAfter(today)) {
+            return "Finished";
+        }
+        if (startDate.isAfter(today)) {
+            return "Not started yet";
+        }
+        return "In progress";
+    }
+
     // Move this booking to another plot and recalculate the total cost
     public void reassignTo(Plot newPlot) {
         this.plot = newPlot;

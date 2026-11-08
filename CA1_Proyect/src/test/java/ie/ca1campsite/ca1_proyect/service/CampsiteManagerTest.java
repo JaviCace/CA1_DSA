@@ -365,4 +365,18 @@ class CampsiteManagerTest {
         // The ids start again from 1
         assertEquals(1, manager.addGuest("Luis", "1985-05-05", "Cork", "086", "l@mail.com", "").getId());
     }
+    @Test
+    void guestReportShowsTheStatusOfTheBooking() {
+        CampsiteManager manager = createManagerWithData();
+        manager.makeBooking("Lakeside", "Lake View 1", 1,
+                LocalDate.of(2026, 7, 10), LocalDate.of(2026, 7, 13), bungalowPrefs());
+
+        String before = manager.getGuestReport(1, LocalDate.of(2026, 7, 1));
+        String during = manager.getGuestReport(1, LocalDate.of(2026, 7, 11));
+        String after = manager.getGuestReport(1, LocalDate.of(2026, 7, 20));
+
+        assertTrue(before.contains("[Not started yet]"));
+        assertTrue(during.contains("[In progress]"));
+        assertTrue(after.contains("[Finished]"));
+    }
 }

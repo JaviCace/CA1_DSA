@@ -272,7 +272,7 @@ public class CampsiteManager {
         Node<Booking> current = guest.getBookings().getHead();
         while (current != null) {
             if (current.getData().isPending(today)) {
-                text.append("  ").append(formatBooking(current.getData())).append("\n");
+                text.append("  ").append(formatBooking(current.getData(),today)).append("\n");
             }
             current = current.getNext();
         }
@@ -282,7 +282,7 @@ public class CampsiteManager {
         current = guest.getBookings().getHead();
         while (current != null) {
             if (!current.getData().isPending(today)) {
-                text.append("  ").append(formatBooking(current.getData())).append("\n");
+                text.append("  ").append(formatBooking(current.getData(),today)).append("\n");
             }
             current = current.getNext();
         }
@@ -310,7 +310,7 @@ public class CampsiteManager {
                     Node<Booking> currentBooking = plot.getBookings().getHead();
                     while (currentBooking != null) {
                         if (currentBooking.getData().isPending(today)) {
-                            text.append("      ").append(formatBooking(currentBooking.getData())).append("\n");
+                            text.append("      ").append(formatBooking(currentBooking.getData(),today)).append("\n");
                         }
                         currentBooking = currentBooking.getNext();
                     }
@@ -326,8 +326,10 @@ public class CampsiteManager {
     }
 
     // One line of text describing a booking
-    private String formatBooking(Booking booking) {
+    // One line of text describing a booking, including its status
+    private String formatBooking(Booking booking, LocalDate today) {
         return "Booking #" + booking.getId()
+                + " [" + booking.getStatus(today) + "]"
                 + " | Plot " + booking.getPlot().getId()
                 + " | Guest " + booking.getGuest().getName()
                 + " | " + booking.getStartDate() + " to " + booking.getEndDate()

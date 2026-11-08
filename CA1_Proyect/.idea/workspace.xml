@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dff7773-3d28-4061-9a42-aa3e06b1395f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ds/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ds/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/BookingPreferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/CampingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/Campsite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/Plot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/PlotType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/SmartFindRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/model/SmartFindResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/service/CampsiteManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/service/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/service/SampleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AddAreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AddCampsiteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AddGuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AddPlotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AlertHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/AppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/CancelBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/DrillDownController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/GuestRecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/MakeBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/PendingBookingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/RemovePlotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/ScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/ca1campsite/ca1_proyect/ui/SmartFindController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/add-area-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/add-campsite-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/add-guest-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/add-plot-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/cancel-booking-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/drill-down-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/guest-record-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/main-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/make-booking-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/pending-bookings-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/remove-plot-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ie/ca1campsite/ca1_proyect/smart-find-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/ds/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/model/CampsiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/model/ModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/model/PlotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/service/CampsiteManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/service/DataStorageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ie/ca1campsite/ca1_proyect/service/SampleDataTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="2dff7773-3d28-4061-9a42-aa3e06b1395f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,13 +14,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -96,23 +35,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7327034644310921" />
-      <entry key="MS500" value="2.6295388843043637" />
-      <entry key="S2" value="2.899792055813193" />
-      <entry key="S5" value="2.95926785253626" />
-      <entry key="S10" value="2.9795241396645435" />
-      <entry key="S30" value="2.9931518117789953" />
-      <entry key="S60" value="2.9983871445400547" />
-      <entry key="M2" value="3.0585337745796957" />
-      <entry key="M5" value="3.4920234188264776" />
-      <entry key="M10" value="3.9923375024894354" />
-      <entry key="M15" value="4.2535362662844545" />
-      <entry key="M30" value="4.583403480426224" />
-      <entry key="H1" value="4.7795594349346135" />
-      <entry key="H2" value="4.886564403175527" />
-      <entry key="H4" value="4.942454741496981" />
-      <entry key="D1" value="4.990292136184616" />
-      <entry key="W1" value="4.998610270031477" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000170971580892" />
+      <entry key="S2" value="1.1378649901686666" />
+      <entry key="S5" value="1.9318127567137215" />
+      <entry key="S10" value="3.078489877748288" />
+      <entry key="S30" value="4.704398970428306" />
+      <entry key="S60" value="5.301637323832506" />
+      <entry key="M2" value="5.69119457235112" />
+      <entry key="M5" value="6.326830826114539" />
+      <entry key="M10" value="6.900517430574583" />
+      <entry key="M15" value="7.189170875506171" />
+      <entry key="M30" value="7.5492423073724035" />
+      <entry key="H1" value="7.761892523819883" />
+      <entry key="H2" value="7.877571235783244" />
+      <entry key="H4" value="7.937916472287109" />
+      <entry key="D1" value="7.989529813431947" />
+      <entry key="W1" value="7.998501219140802" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -134,23 +73,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8140826215361224" />
-      <entry key="MS500" value="2.1788146444787833" />
-      <entry key="S2" value="2.758631872472177" />
-      <entry key="S5" value="2.9000611253764506" />
-      <entry key="S10" value="2.9494437457517417" />
-      <entry key="S30" value="2.983017091289248" />
-      <entry key="S60" value="2.993305483098533" />
-      <entry key="M2" value="3.05597832028776" />
-      <entry key="M5" value="3.4909670363468788" />
-      <entry key="M10" value="3.9917898257264426" />
-      <entry key="M15" value="4.253164374876852" />
-      <entry key="M30" value="4.583213258695329" />
-      <entry key="H1" value="4.779463052804812" />
-      <entry key="H2" value="4.886515865370642" />
-      <entry key="H4" value="4.942430382040516" />
-      <entry key="D1" value="4.990288063357394" />
-      <entry key="W1" value="4.998609687878131" />
+      <entry key="MS100" value="0.010746420454216749" />
+      <entry key="MS500" value="0.40393221680266467" />
+      <entry key="S2" value="0.9033347622721496" />
+      <entry key="S5" value="1.778572035266881" />
+      <entry key="S10" value="2.969660775476468" />
+      <entry key="S30" value="4.6545268006674245" />
+      <entry key="S60" value="5.2743222460657835" />
+      <entry key="M2" value="5.6768652240785755" />
+      <entry key="M5" value="6.320898450862825" />
+      <entry key="M10" value="6.897503057418694" />
+      <entry key="M15" value="7.1871480094846065" />
+      <entry key="M30" value="7.548223293714758" />
+      <entry key="H1" value="7.761380907952103" />
+      <entry key="H2" value="7.877314869957785" />
+      <entry key="H4" value="7.937788145800483" />
+      <entry key="D1" value="7.9895084053818755" />
+      <entry key="W1" value="7.998498160345928" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -173,6 +112,7 @@
     "Application.HelloApplication.executor": "Run",
     "Application.Launcher.executor": "Run",
     "Application.MainApp.executor": "Run",
+    "JUnit.BookingTest.executor": "Run",
     "JUnit.CampsiteManagerTest.executor": "Run",
     "JUnit.CampsiteTest.executor": "Run",
     "JUnit.DataStorageTest.executor": "Run",
@@ -188,9 +128,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/javic/Desktop/CA1_DSA/CA1_Proyect",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -210,7 +152,7 @@
       <recent name="ie.ca1campsite.ca1_proyect.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="JUnit.CampsiteManagerTest">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ie.ca1campsite.ca1_proyect.MainApp" />
       <module name="CA1_Proyect" />
@@ -220,6 +162,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CA1_Proyect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.ca1campsite.ca1_proyect.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.ca1campsite.ca1_proyect.model" />
+      <option name="MAIN_CLASS_NAME" value="ie.ca1campsite.ca1_proyect.model.BookingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,21 +191,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ie.ca1campsite.ca1_proyect.service" />
       <option name="MAIN_CLASS_NAME" value="ie.ca1campsite.ca1_proyect.service.CampsiteManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CampsiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CA1_Proyect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.ca1campsite.ca1_proyect.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.ca1campsite.ca1_proyect.model" />
-      <option name="MAIN_CLASS_NAME" value="ie.ca1campsite.ca1_proyect.model.CampsiteTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CampsiteManagerTest" />
+        <item itemvalue="JUnit.BookingTest" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="JUnit.SampleDataTest" />
         <item itemvalue="JUnit.DataStorageTest" />
-        <item itemvalue="JUnit.CampsiteManagerTest" />
-        <item itemvalue="JUnit.CampsiteTest" />
       </list>
     </recent_temporary>
   </component>

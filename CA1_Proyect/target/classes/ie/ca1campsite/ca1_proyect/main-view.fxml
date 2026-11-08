@@ -31,11 +31,26 @@
                         <MenuItem onAction="#onAddCampsite" text="Add campsite..." />
                         <MenuItem onAction="#onAddArea" text="Add camping area..." />
                         <MenuItem onAction="#onAddPlot" text="Add plot / pitch..." />
+                        <MenuItem onAction="#onRemovePlot" text="Remove plot / pitch..." />
                     </items>
                 </Menu>
                 <Menu text="Guests">
                     <items>
                         <MenuItem onAction="#onAddGuest" text="Add guest..." />
+                    </items>
+                </Menu>
+                <Menu text="Bookings">
+                    <items>
+                        <MenuItem onAction="#onMakeBooking" text="Make booking..." />
+                        <MenuItem onAction="#onCancelBooking" text="Cancel booking..." />
+                        <MenuItem onAction="#onSmartFind" text="Smart find..." />
+                    </items>
+                </Menu>
+                <Menu text="Reports">
+                    <items>
+                        <MenuItem onAction="#onDrillDown" text="Browse campsites (drill-down)..." />
+                        <MenuItem onAction="#onPendingBookings" text="Pending bookings..." />
+                        <MenuItem onAction="#onGuestRecord" text="Guest record..." />
                     </items>
                 </Menu>
             </menus>

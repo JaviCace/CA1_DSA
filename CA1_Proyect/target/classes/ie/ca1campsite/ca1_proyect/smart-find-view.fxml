@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ie.ca1campsite.ca1_proyect.ui.SmartFindController">
+    <content>
+        <VBox spacing="15.0">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label style="-fx-font-size: 18; -fx-font-weight: bold;" text="Smart find" />
+                <GridPane hgap="10.0" vgap="10.0">
+                    <children>
+                        <Label text="Desired check-in" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                        <DatePicker fx:id="startPicker" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                        <Label text="Number of nights" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                        <Spinner fx:id="nightsSpinner" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="Flexible days (later start)" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                        <Spinner fx:id="flexSpinner" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="Minimum stars" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                        <Spinner fx:id="starsSpinner" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="Number of guests" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                        <Spinner fx:id="guestsSpinner" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="Plot type" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                        <ComboBox fx:id="typeCombo" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label text="Needs power" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+                        <CheckBox fx:id="powerCheck" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label text="Minimum size (m2)" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+                        <TextField fx:id="minSizeField" prefWidth="250.0" promptText="Optional" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label text="Minimum bedrooms" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+                        <Spinner fx:id="bedroomsSpinner" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Label text="Budget (EUR, whole stay)" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+                        <TextField fx:id="budgetField" prefWidth="250.0" promptText="For example: 300" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                    </children>
+                </GridPane>
+                <Label text="Campsite facilities" />
+                <FlowPane hgap="15.0" vgap="8.0">
+                    <children>
+                        <CheckBox fx:id="poolCheck" text="Swimming pool" />
+                        <CheckBox fx:id="wifiCheck" text="WiFi" />
+                        <CheckBox fx:id="restaurantCheck" text="Restaurant" />
+                        <CheckBox fx:id="spaCheck" text="Spa" />
+                        <CheckBox fx:id="gymCheck" text="Gym" />
+                        <CheckBox fx:id="shopCheck" text="Shop" />
+                        <CheckBox fx:id="laundryCheck" text="Laundry" />
+                        <CheckBox fx:id="medicalCheck" text="Medical centre" />
+                    </children>
+                </FlowPane>
+                <Label text="Plot facilities" />
+                <FlowPane hgap="15.0" vgap="8.0">
+                    <children>
+                        <CheckBox fx:id="airConditioningCheck" text="Air conditioning" />
+                        <CheckBox fx:id="heatingCheck" text="Heating" />
+                        <CheckBox fx:id="barbecueCheck" text="Barbecue" />
+                        <CheckBox fx:id="bathroomCheck" text="Private bathroom" />
+                    </children>
+                </FlowPane>
+                <Button onAction="#onSearch" text="Search" />
+                <TextArea fx:id="resultArea" editable="false" prefHeight="190.0" promptText="The proposal will appear here" />
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label text="Guest" />
+                        <ComboBox fx:id="guestCombo" prefWidth="250.0" promptText="Choose a guest" />
+                        <Button fx:id="bookButton" onAction="#onBook" text="Book this proposal" />
+                    </children>
+                </HBox>
+                <HBox spacing="10.0">
+                    <children>
+                        <Button onAction="#onBack" text="Back" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </content>
+</ScrollPane>
